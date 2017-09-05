@@ -1,5 +1,10 @@
 package com.hendisantika.swaggerexample.model;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
 /**
  * Created by IntelliJ IDEA.
  * User: hendisantika
@@ -9,6 +14,8 @@ package com.hendisantika.swaggerexample.model;
  * Time: 7:40 AM
  * To change this template use File | Settings | File Templates.
  */
+
+@Entity
 public class Employee {
     @Id
     @GeneratedValue
