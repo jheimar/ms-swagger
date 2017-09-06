@@ -37,7 +37,7 @@ public class SwaggerConfig {
         return new ApiInfoBuilder()
                 .title("Employee API Example")
                 .description("A implementation of an API Gateway for Keyhole Labs Microservice Reference.")
-                .contact(new Contact("Keyhole Software", "hendisantika", "hendisantika@yahoo.co.id"))
+                .contact(new Contact("Hendi Santika Software", "hendisantika", "hendisantika@yahoo.co.id"))
                 .version("2.0")
                 .build();
     }
