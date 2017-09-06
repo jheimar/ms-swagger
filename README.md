@@ -20,6 +20,9 @@ Compile or import into IDE and execute Java main method
 
 Enter the following urls's in a browser
 ```
- http://localhost:8080/api/employess 
- http://localhost:8080/api/emnpoyees/1
+ http://localhost:8080/api/employees
+ http://localhost:8080/api/employees/1
 ```
+
+### Swaager UI
+`http://localhost:8080/swagger-ui.html#/`
