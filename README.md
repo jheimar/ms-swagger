@@ -24,5 +24,12 @@ Enter the following urls's in a browser
  http://localhost:8080/api/employees/1
 ```
 
-### Swaager UI
+### Swagger UI
 `http://localhost:8080/swagger-ui.html#/`
+
+### Screenshot
+
+List APIs
+
+![List APIs](img/api.png "List APIs")
+
