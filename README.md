@@ -1,6 +1,6 @@
-#Spring Boot Swagger Example
+# Spring Boot Swagger Example
 
-###Spring Boot API Example CRUD app using Spring MVC/DATA with Spring Fox Swagger implementation and Swagger Publish and API Metrics Spring Boot starter configurations
+Spring Boot API Example CRUD app using Spring MVC/DATA with Spring Fox Swagger implementation and Swagger Publish and API Metrics Spring Boot starter configurations
 
 Here are links to the Spring Boot frameworks utilized in the example implementation
 
@@ -10,7 +10,9 @@ Here are links to the Spring Boot frameworks utilized in the example implementat
 
 [API Statistics](https://github.com/in-the-keyhole/khs-spring-boot-api-statistics-starter)
 
-###Installation and running
+### Installation and running
+
+Run this project by this command :
 
 Clone repo
 
