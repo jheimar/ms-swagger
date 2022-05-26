@@ -24,4 +24,17 @@ public class EmployeeService {
     public Iterable<Employee> all() {
         return repository.findAll();
     }
+    
+    public Employee findEmployee(Long id) {
+        return repository.findOne(id);
+    }
+
+    public Employee save(Employee employee) {
+
+        return repository.save(employee);
+    }
+
+    public void delete(Employee employee) {
+        repository.delete(employee);
+    }
 }
