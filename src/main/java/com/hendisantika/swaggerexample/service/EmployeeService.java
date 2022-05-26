@@ -25,9 +25,9 @@ public class EmployeeService {
         return repository.findAll();
     }
 
-    public Employee findEmployee(Long id) {
+    /*public Employee findEmployee(Long id) {
         return repository.findOne(id);
-    }
+    }*/
 
     public Employee save(Employee employee) {
 
