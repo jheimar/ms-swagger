@@ -27,7 +27,7 @@ public class EmployeeController {
 
     @ApiOperation("value")
     @RequestMapping(method = RequestMethod.GET, value = "/employees/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
-    ResponseEntity<Employee> employee(@PathVariable("id") Long id) {
+    ResponseEntity<Employee> employee(@PathVariable("id") int id) {
         Employee employee = service.findEmployee(id);
         return new ResponseEntity<Employee>(employee, HttpStatus.OK);
     }
